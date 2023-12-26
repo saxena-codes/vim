@@ -27,12 +27,12 @@ nnoremap <C-H> <C-W><C-H>
 set list
 set listchars=trail:*
 
+" Required by various plugins to work
+set nocompatible
+
 " -------
 " Plugins
 " -------
-
-" Required for various plugins to work
-set nocompatible
 
 call plug#begin()
 
@@ -53,9 +53,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Git functionality inside vim
 Plug 'tpope/vim-fugitive'
 
-" NERDTree
-Plug 'preservim/nerdtree'
-
 " Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -72,7 +69,14 @@ Plug 'Raimondi/delimitMate'
 " Python indentation
 Plug 'vim-scripts/indentpython.vim'
 
+# NERDTree
+Plug 'preservim/nerdtree'
+
 call plug#end()
+
+"---------------------
+" Settings for Plugins
+"---------------------
 
 " SimpylFold - Docstrings for code folding
 let g:SimpylFold_docstring_preview=1
@@ -81,7 +85,16 @@ let g:SimpylFold_docstring_preview=1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" Setting vim-airline Theme
+let g:airline_theme='base16-spacemacs'
+
+" Setting colorscheme to onedark
+colorscheme onedark
+
+"------------------------
 " NerdTree settings START
+"------------------------
+
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
@@ -104,10 +117,7 @@ let g:NERDTreeDirArrowExpandable = '?'
 let g:NERDTreeDirArrowCollapsible = '?'
 
 let g:NERDTreeFileLines = 1
+
+"----------------------
 " NerdTree settings END
-
-" Setting vim-airline Theme
-let g:airline_theme='base16-spacemacs'
-
-" Setting colorscheme to onedark
-colorscheme onedark
+" ---------------------
