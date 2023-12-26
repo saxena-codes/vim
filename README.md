@@ -12,6 +12,7 @@ Learning vim and its various settings for better understanding.
 
 |Ser|Description|Remarks|
 |:-:|-----------|-------|
-|1.| [NERDTree](plugins/nerdtree.md) | NERDTree. |
+|1.| [NERDTree](plugins/nerdtree.md) | NERDTree |
+|2.| [vim-airline](plugins/vim-airline.md) | vim-airline |
 
 ## The End
