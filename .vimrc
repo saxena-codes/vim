@@ -69,7 +69,7 @@ Plug 'Raimondi/delimitMate'
 " Python indentation
 Plug 'vim-scripts/indentpython.vim'
 
-# NERDTree
+" NERDTree
 Plug 'preservim/nerdtree'
 
 call plug#end()
