@@ -10,13 +10,13 @@ set number
 
 " Syntax highlighting
 syntax on
+
 " Default colorscheme if plugin doesn't load
 colorscheme pablo
 
 " Splitting windows for opening mutliple windows
 set splitbelow
 set splitright
-
 " Split navigation - to move among multiple windows
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -53,7 +53,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Git functionality inside vim
 Plug 'tpope/vim-fugitive'
 
-" Airline
+" Airline & Themes
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -69,7 +69,7 @@ Plug 'Raimondi/delimitMate'
 " Python indentation
 Plug 'vim-scripts/indentpython.vim'
 
-" NERDTree
+" NERD Tree
 Plug 'preservim/nerdtree'
 
 call plug#end()
@@ -91,9 +91,9 @@ let g:airline_theme='base16-spacemacs'
 " Setting colorscheme to onedark
 colorscheme onedark
 
-"------------------------
-" NerdTree settings START
-"------------------------
+"-------------------------
+" NERD Tree settings START
+"-------------------------
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
@@ -120,4 +120,4 @@ let g:NERDTreeFileLines = 1
 
 "----------------------
 " NerdTree settings END
-" ---------------------
+"----------------------
