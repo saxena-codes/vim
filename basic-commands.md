@@ -2,13 +2,13 @@
 
 1. Starting Vimtutor.
 
-```
+```shell
 $ vim test.txt
 ```
 
 2. Starting vimtutor - Inside vim windoe enter following:
 
-```
+```vim
 :help tutor
 ```
 
