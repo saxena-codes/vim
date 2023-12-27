@@ -18,7 +18,7 @@ Learning vim and its various settings for better understanding.
 |3.| [Syntax and Theme Settings](basic-settings/syntax-and-theme-settings.md) | For setting up heighlighting of code and basic theme, for in a situation if the plugins doesn't load, vim will fallback to these settings. |
 |4.| [Flagging Whitespaces](basic-settings/flagging-whitespaces.md) | Flagging trailing whitespaces. |
 
-## Plugins ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working)
+## Plugins
 
 |Ser|Description|Remarks|
 |:-:|-----------|-------|
@@ -30,8 +30,8 @@ Learning vim and its various settings for better understanding.
 |6.| [vim-airline](plugins/vim-airline.md) | For airline at the bottom. Also include description for including airline themes through `vim-airline-themes`. |
 |7.| [onedark.vim](plugins/onedark-vim.md) | For overall vim theme. |
 |8.| [vim-polygot](plugins/vim-polygot.md) | For syntax highlighting. |
-|9.| [delimitMate](plugins/delimit-mate.md) | For automatic closing of paranthesis and quotes. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
-|10.| [indentpython.vim](plugins/indentpython-vim.md) | For Python indentation checking. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
+|9.| [delimitMate](plugins/delimit-mate.md) | For automatic closing of paranthesis and quotes. |
+|10.| [indentpython.vim](plugins/indentpython-vim.md) | For Python indentation checking. |
 |11.| [NERDTree](plugins/nerdtree.md) | NERDTree - File explorer for vim. |
 
 ## Final .vimrc File
