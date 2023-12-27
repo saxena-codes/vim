@@ -4,7 +4,7 @@ For real time error detection in your code.
 
 ## Code
 
-1. Before adding this plugin, endure that `pylint` is installed on your system, otherwise:
+1. Before adding this plugin, ensure that `pylint` is installed on your system, otherwise:
 
 ```sh
 $ pip install pylint

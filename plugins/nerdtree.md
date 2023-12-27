@@ -1,8 +1,12 @@
 # NERDTree
 
+A NERDTree is a file explorer for vim. This helps a lot in working on projects with large number of files.
+
+## Code
+
 Following `.vimrc` is my settings for NerdTree. Please go through the reference mentioned for understanding and changing.
 
-```
+```vim
 " Imported Plugins
 call plug#begin()
 
@@ -37,6 +41,13 @@ let g:NERDTreeFileLines = 1
 
 " NerdTree settings END
 ```
+
+## Usage
+
+1. NERDTree will automatically open with each file with above settings.
+2. To access NERDTree you can use `<leader>+n`. Default `<keader>` is `\`. So in our case, `\+n` will bring NERDTree to focus, in which you can select the file or directory to open.
+3. You can also use `Ctrl + n` for accessing NERDTree.
+4. To toggle the NERDTree view you can use `Ctrl + t`.
 
 ## References
 

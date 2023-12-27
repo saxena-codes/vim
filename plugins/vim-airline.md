@@ -1,7 +1,10 @@
 # vim-airline Plugin
 
-```
-" Imported Plugins
+To add a airline at the bottom of the vim editor, to show current status and other info including Git branch.
+
+## Code
+
+```vim
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
@@ -11,7 +14,6 @@ call plug#end()
 
 " Setting vim-airline Theme
 let g:airline_theme='base16-spacemacs'
-
 ```
 
 ## References
