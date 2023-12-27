@@ -41,4 +41,8 @@ nnoremap <C-H> <C-W><C-H>
 :sb dir_name/file_name.py
 ```
 
+## References
+
+1. https://realpython.com/vim-and-python-a-match-made-in-heaven/#ditch-the-mouse
+
 ## The End

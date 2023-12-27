@@ -1,13 +1,13 @@
 # Starting of File Settings
 
-## Code
-
 - Helps in following functionalities:
 	- Set file encoding.
 	- Show number line.
 	- `nocompatible` for plugin support.
 
 - To be entered inside `.vimrc`, at the starting of file:
+
+## Code
 
 ```
 " Set encoding
@@ -19,3 +19,5 @@ set number
 " Required by various plugins to work
 set nocompatible
 ```
+
+## The End
