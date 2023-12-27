@@ -23,8 +23,8 @@ Learning vim and its various settings for better understanding.
 |Ser|Description|Remarks|
 |:-:|-----------|-------|
 |1.| [SimpylFold](plugins/simpylfold.md) | For folding of code blocks in a file. |
-|2.| [supertab](plugins/supertab.md) | For auto completion/ suggestions for a code through `tab` key ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
-|3.| [ALE](plugins/ale.md) | For error checking. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
+|2.| [supertab](plugins/supertab.md) | For auto completion/ suggestions for a code through `tab` key. |
+|3.| [ALE](plugins/ale.md) | For error checking. |
 |4.| [ctrlp.vim](plugins/ctrlp-vim.md) | For searching files in the working directory. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
 |5.| [vim-fugitive](plugins/vim-fugitive.md) | For Git inside vim. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
 |6.| [vim-airline](plugins/vim-airline.md) | For airline at the bottom. Also include description for including airline themes through `vim-airline-themes`. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |

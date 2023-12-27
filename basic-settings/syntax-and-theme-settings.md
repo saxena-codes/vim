@@ -1,10 +1,10 @@
 # Syntax and Theme Settings
 
-The code is for setting syntax highlighting on and a basic theme to fall back incase the plugin does not loads.
+The code is for setting syntax highlighting `on` and a basic theme to fall back incase the plugin does not loads.
 
 ## Code
 
-```
+```vim
 " Syntax highlighting
 syntax on
 
