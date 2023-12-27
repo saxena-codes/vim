@@ -38,4 +38,8 @@ Learning vim and its various settings for better understanding.
 
 [.vimrc](.vimrc)
 
+## Preview
+
+![Screenshot](/images/screenshot.png)
+
 ## The End
