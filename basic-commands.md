@@ -2,7 +2,7 @@
 
 1. Starting Vimtutor.
 
-```shell
+```sh
 $ vim test.txt
 ```
 

@@ -2,7 +2,7 @@
 
 1. Installing Vim (Linux).
 
-```shell
+```sh
 $ sudo apt install vim
 ```
 

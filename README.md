@@ -5,8 +5,7 @@ Learning vim and its various settings for better understanding.
 |Ser|Description|Remarks|
 |:-:|-----------|-------|
 |1.| [Installation](installation.md) | Installation for Linux. |
-|2.| [Basic Commands](basic-commands.md) | Using the basic `vimtutorial` from vim to learn basic commands of vim. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working)
-|
+|2.| [Basic Commands](basic-commands.md) | Using the basic `vimtutorial` from vim to learn basic commands of vim. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
 |3.| [Plugin Manager](plugin-manager.md) | `vim-plug` installation as a plugin manager. |
 |4.| [Self Discovered Commands](self-discovered-commands.md)| All the commands of vim which have been researched on internet and found useful |
 

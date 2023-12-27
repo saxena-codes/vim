@@ -4,7 +4,7 @@
 
 - Inside vim in Normal mode use `:e` as explained below:
 
-```
+```vim
 :e filename.py
 ```
 
@@ -12,7 +12,7 @@
 
 - To create a directory, directly from vim:
 
-```
+```vim
 :!mkdir directory_name
 ```
 

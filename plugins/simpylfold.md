@@ -5,7 +5,7 @@ A vim plugin to fold `Python` nested code automatically.
 ## Code
 
 1. `vim-plug` code to add to `.vimrc` file:
-```
+```vim
 call plug#begin()
 
 Plug 'tmhedberg/SimpylFold'

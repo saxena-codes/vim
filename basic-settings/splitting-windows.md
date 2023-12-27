@@ -3,7 +3,7 @@
 ## Code
 
 - Enter the following to .vimrc file:
-```
+```vim
 " Splitting windows for opening mutliple windows
 set splitbelow
 set splitright
@@ -31,13 +31,13 @@ nnoremap <C-H> <C-W><C-H>
 
 1. To open a new file vertically:
 
-```
+```vim
 :vs filename.py
 ```
 
 2. To open a new file below the currently open file:
 
-```
+```vim
 :sb dir_name/file_name.py
 ```
 

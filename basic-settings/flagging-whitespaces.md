@@ -4,7 +4,7 @@ Easier way to highlight trailing whitespaces instead of using heavy plugins.
 
 ## Code
 
-```
+```vim
 " Flagging unecessary white space
 set list
 set listchars=trail:*

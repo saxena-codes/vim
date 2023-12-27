@@ -2,7 +2,7 @@
 
 ## Installing vim-plug plugin manager.
 
-```
+```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
@@ -10,7 +10,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 1. To add a plugin, first add the following lines to `.vimrc`
 
-```
+```vim
 call plug#begin()
 
 Plug 'preservim/nerdtree'
@@ -24,7 +24,7 @@ call plug#end()
 
 4. To download and install the plugins, open Vim and then type the `:PlugInstall` command. Doing so will open up a pane to the left side and you will get a live view of the plugins being cloned and installed.
 
-```
+```vim
 :PlugInstall
 ```
 
@@ -34,13 +34,13 @@ call plug#end()
 
 1. To update all the plugins, open vim and type following command:
 
-```
+```vim
 :PlugUpdate
 ```
 
 2. To update a specific plugin:
 
-```
+```vim
 :PlugUpdate nerdtree 
 ```
 
@@ -48,7 +48,7 @@ call plug#end()
 
 1. Open vim and run the following command:
 
-```
+```vim
 :PlugUpgrade
 ```
 
@@ -58,7 +58,7 @@ call plug#end()
 
 2. Once the plugin name is removed from the `.vimrc` file, run the following commmand:
 
-```
+```vim
 :PlugClean
 ```
 
