@@ -28,8 +28,8 @@ Learning vim and its various settings for better understanding.
 |4.| [ctrlp.vim](plugins/ctrlp-vim.md) | For searching files in the working directory. |
 |5.| [vim-fugitive](plugins/vim-fugitive.md) | For Git inside vim. |
 |6.| [vim-airline](plugins/vim-airline.md) | For airline at the bottom. Also include description for including airline themes through `vim-airline-themes`. |
-|7.| [onedark.vim](plugins/onedark-vim.md) | For overall vim theme. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
-|8.| [vim-polygot](plugins/vim-polygot.md) | For syntax highlighting. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
+|7.| [onedark.vim](plugins/onedark-vim.md) | For overall vim theme. |
+|8.| [vim-polygot](plugins/vim-polygot.md) | For syntax highlighting. |
 |9.| [delimitMate](plugins/delimit-mate.md) | For automatic closing of paranthesis and quotes. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
 |10.| [indentpython.vim](plugins/indentpython-vim.md) | For Python indentation checking. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
 |11.| [NERDTree](plugins/nerdtree.md) | NERDTree - File explorer for vim. |
