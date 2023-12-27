@@ -26,7 +26,7 @@ Learning vim and its various settings for better understanding.
 |2.| [supertab](plugins/supertab.md) | For auto completion/ suggestions for a code through `tab` key. |
 |3.| [ALE](plugins/ale.md) | For error checking. |
 |4.| [ctrlp.vim](plugins/ctrlp-vim.md) | For searching files in the working directory. |
-|5.| [vim-fugitive](plugins/vim-fugitive.md) | For Git inside vim. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
+|5.| [vim-fugitive](plugins/vim-fugitive.md) | For Git inside vim. |
 |6.| [vim-airline](plugins/vim-airline.md) | For airline at the bottom. Also include description for including airline themes through `vim-airline-themes`. |
 |7.| [onedark.vim](plugins/onedark-vim.md) | For overall vim theme. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |
 |8.| [vim-polygot](plugins/vim-polygot.md) | For syntax highlighting. ![Static Badge](https://img.shields.io/badge/Status-Incomplete-red?link=Working) |

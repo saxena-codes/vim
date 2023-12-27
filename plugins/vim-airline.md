@@ -1,6 +1,6 @@
 # vim-airline Plugin
 
-To add a airline at the bottom of the vim editor, to show current status and other info including Git branch.
+To add an airline at the bottom of the vim editor, to show current status and other info including Git branch.
 
 ## Code
 
