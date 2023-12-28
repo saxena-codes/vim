@@ -1,4 +1,4 @@
-# Basic Commands - Vim 
+# VimTutor
 
 1. Starting Vimtutor.
 
@@ -12,53 +12,22 @@ $ vim test.txt
 :help tutor
 ```
 
-3. Modes in Vim.
+3. For using the GUI version of Vim, use following:
 
-	- `Normal Mode` - For viewing the document.
-	- `Insert Mode` - For editing file, press i key to go to insert mode. To exit insert mode press Esc key
-	- `Visual Mode` -
+```sh
+$ vimtutor -g
+```
 
-## Normal Mode
+## References to resources through `:help tutor`
 
-4. Moving aroung in Vim - Normal Mode.
+|Ser|File Name|Description|
+|:-:|---------|-----------|
+|1.| [Lesson 01](lesson_01.md) | Moving cursor in Normal Mode, saving and exiting vim, deleting characters, inserting text and appending text.|
+|2.| [Lesson 02](lesson_02.md) | Deleting a word, deleting till EOL, deleting a line, moving to the start of line, undo and redo. |
+|3.| [Lesson 03](lesson_03.md) | Put, Replace and Change. |
+|4.| [Lesson 04](lesson_04.md) | |
+|5.| [Lesson 05](lesson_05.md) | |
+|6.| [Lesson 06](lesson_06.md) | |
+|7.| [Lesson 07](lesson_07.md) | |
 
-	- `h` - left
-	- `j` - down
-	- `k` - up
-	- `l` - right
-
-5. Deleting chracters - in Normal Mode
-
-	- move the cursor to the place where you want to delete the charater
-	- press `x` key
-
-6. Deleting a line - Normal Mode
-
-	- move the cursor to desired line
-	- press `dd`
-
-7. Deleting a linebreak.
-
-	- If you want to join two lines together.
-	- Move cursor to the first line of the two lines.
-	- Press `Shift+j` or "J"
-
-8. Undo in Normal Mode.
-
-	- Press `u`.
-
-9. Redo in Normal Mode.
-
-	- `Ctrl + r`
-
-10. Appending - Normal Mode.
-
-	- `a` to append.
-
->**Note**: The "i" command inserts a character before the character under the cursor. That works fine; but what happens if you want to add stuff to the end of the line? For that you need to insert text after the cursor. This is done with the `a` (append) command.
-
-## Insert Mode
-
-11. Enter insert mode.
-
-	- Press `i` or `a` from Normal Mode.
+## The End
