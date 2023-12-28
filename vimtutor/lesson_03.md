@@ -1,6 +1,6 @@
-# Lesson 02 - PUT, REPLACE and CHANGE
+# Lesson 03 - PUT, REPLACE and CHANGE
 
-1. The PUT command - `p`.
+### 1. The PUT command - `p`.
 
 	- For `cut and paste` a line from one place to another.
 	- Method:
@@ -11,14 +11,14 @@
 
 > **Note**: Works only for one line movement. Does not register more than one line.
 
-2. The REPLACE command - `r`
+### 2. The REPLACE command - `r`
 
 	- To replacing a character in a line.
 	- Move the cursor to the character which needs to be changed.
 	- Press `r` and press the new character to be replaced with.
 	- Example: `rx` -> will replace the old character with `x` (new character).
 
-3. The CHANGE command - `ce`, `cc`, `cw` and `c$`
+### 3. The CHANGE command - `ce`, `cc`, `cw` and `c$`
 
 	- To change until the end of a word - `ce`.
 		- Move the cursor to the character of word from where the change needs to begin.
