@@ -36,7 +36,7 @@
 
 ### 6. To move to start of the line - Normal Mode.
 
-- Press `0` to move cursot to the start of line.
+- Press `0` to move cursor to the start of line.
 
 ### 7. Undo in Normal Mode.
 

@@ -17,9 +17,9 @@
 
 ### 3. The SUBSTITUTE Command.
 
-- To substitute new for the first old in a line    :s/old/new
-- To substitute new for all old's on a line        :s/old/new/g
-- To substitute all occurrences in a file          :%s/old/new/g
-- To ask for confirmation each time add 'c'        :%s/old/new/gc
+- To substitute new for the first old in a line `:s/old/new`.
+- To substitute new for all old's on a line `:s/old/new/g`.
+- To substitute all occurrences in a file `:%s/old/new/g`.
+- To ask for confirmation each time add 'c' `:%s/old/new/gc`.
 
 ## The End
