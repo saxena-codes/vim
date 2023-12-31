@@ -20,23 +20,26 @@ Learning vim and its various settings for better understanding.
 
 ## Plugins
 
-|Ser|Description|Remarks|
-|:-:|-----------|-------|
-|1.| [SimpylFold](plugins/simpylfold.md) | For folding of code blocks in a file. |
-|2.| [supertab](plugins/supertab.md) | For auto completion/ suggestions for a code through `tab` key. |
-|3.| [ALE](plugins/ale.md) | For error checking. |
-|4.| [ctrlp.vim](plugins/ctrlp-vim.md) | For searching files in the working directory. |
-|5.| [vim-fugitive](plugins/vim-fugitive.md) | For Git inside vim. |
-|6.| [vim-airline](plugins/vim-airline.md) | For airline at the bottom. Also include description for including airline themes through `vim-airline-themes`. |
-|7.| [onedark.vim](plugins/onedark-vim.md) | For overall vim theme. |
-|8.| [vim-polygot](plugins/vim-polygot.md) | For syntax highlighting. |
-|9.| [delimitMate](plugins/delimit-mate.md) | For automatic closing of paranthesis and quotes. |
-|10.| [indentpython.vim](plugins/indentpython-vim.md) | For Python indentation checking. |
-|11.| [NERDTree](plugins/nerdtree.md) | NERDTree - File explorer for vim. |
+|Ser|Description|Remarks|Alternate Found - Incorporated in updated `.vimrc` |
+|:-:|-----------|-------|---------------------------------------------------|
+|1.| [SimpylFold](plugins/simpylfold.md) | For folding of code blocks in a file. | |
+|2.| [supertab](plugins/supertab.md) | For auto completion/ suggestions for a code through `tab` key. | |
+|3.| [ALE](plugins/ale.md) | For error checking. | |
+|4.| [ctrlp.vim](plugins/ctrlp-vim.md) | For searching files in the working directory. | |
+|5.| [vim-fugitive](plugins/vim-fugitive.md) | For Git inside vim. | |
+|6.| [vim-airline](plugins/vim-airline.md) | For airline at the bottom. Also include description for including airline themes through `vim-airline-themes`. | Removed `vim-airline-themes` - showing errors. |
+|7.| [onedark.vim](plugins/onedark-vim.md) | For overall vim theme. | |
+|8.| [vim-polygot](plugins/vim-polygot.md) | For syntax highlighting. | |
+|9.| [delimitMate](plugins/delimit-mate.md) | For automatic closing of paranthesis and quotes. | |
+|10.| [indentpython.vim](plugins/indentpython-vim.md) | For Python indentation checking. | |
+|11.| [NERDTree](plugins/nerdtree.md) | NERDTree - File explorer for vim. | Found inbuilt command works much better `:Explore`. Removed NerdTree from .vimrc. |
 
 ## Final .vimrc File
 
-[.vimrc](.vimrc)
+1. [.vimrc-v2](.vimrc-v2) - Better version
+2. [.vimrc-v1](.vimrc-v1) - Initial version
+
+> **Note**: Remove `-v1` or any other version before saving `.vimrc` file.
 
 ## Preview
 
