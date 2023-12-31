@@ -26,7 +26,7 @@ $ vimtutor -g
 |2.| [Lesson 02](vimtutor/lesson_02.md) | Deleting a word, deleting till EOL, deleting a line, moving to the start of line, undo and redo. |
 |3.| [Lesson 03](vimtutor/lesson_03.md) | Put, Replace and Change. |
 |4.| [Lesson 04](vimtutor/lesson_04.md) | Cursor movement, search command and substitute command. |
-|5.| [Lesson 05](vimtutor/lesson_05.md) | |
+|5.| [Lesson 05](vimtutor/lesson_05.md) | Executing external commands, writing files and copying content from another file. |
 |6.| [Lesson 06](vimtutor/lesson_06.md) | |
 |7.| [Lesson 07](vimtutor/lesson_07.md) | |
 

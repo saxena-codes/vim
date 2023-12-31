@@ -15,7 +15,7 @@ Learning vim and its various settings for better understanding.
 |:-:|-----------|-------|
 |1.| [Starting of File Settings](basic-settings/starting-of-file-settings.md) | All the settings at the start of `.vimrc` file for basic requirements. |
 |2.| [Splitting Windows](basic-settings/splitting-windows.md) | Splitting windows inside vim for working on various files together. Also added functionality of movement amongst the opened windows. |
-|3.| [Syntax and Theme Settings](basic-settings/syntax-and-theme-settings.md) | For setting up heighlighting of code and basic theme, for in a situation if the plugins doesn't load, vim will fallback to these settings. |
+|3.| [Syntax and Theme Settings](basic-settings/syntax-and-theme-settings.md) | For setting up highlighting of code and basic theme, for in a situation if the plugins doesn't load, vim will fallback to these settings. |
 |4.| [Flagging Whitespaces](basic-settings/flagging-whitespaces.md) | Flagging trailing whitespaces. |
 
 ## Plugins
