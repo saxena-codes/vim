@@ -17,6 +17,7 @@ Learning vim and its various settings for better understanding.
 |2.| [Splitting Windows](basic-settings/splitting-windows.md) | Splitting windows inside vim for working on various files together. Also added functionality of movement amongst the opened windows. |
 |3.| [Syntax and Theme Settings](basic-settings/syntax-and-theme-settings.md) | For setting up highlighting of code and basic theme, for in a situation if the plugins doesn't load, vim will fallback to these settings. |
 |4.| [Flagging Whitespaces](basic-settings/flagging-whitespaces.md) | Flagging trailing whitespaces. |
+|5.| [Search Highlighting](basic-settings/search-highlighting.md) | Highlighting the seach once done using `/`. |
 
 ## Plugins
 
