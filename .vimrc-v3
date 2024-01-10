@@ -1,0 +1,95 @@
+" --------------
+" Basic Settings
+" --------------
+
+" Set encoding
+set encoding=utf-8
+
+" Setting line number
+set number
+
+" Syntax highlighting
+syntax on
+
+" Search setting - /word to search
+" Setting to ignore case.
+set ic
+" Setting higlighting and incsearch - for searching
+set hls is
+
+" Default colorscheme if plugin doesn't load
+colorscheme pablo
+
+" Splitting windows for opening mutliple windows
+set splitbelow
+set splitright
+" Split navigation - to move among multiple windows
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Flagging unecessary white space
+set list
+set listchars=trail:*
+
+" Required by various plugins to work
+set nocompatible
+
+" -------
+" Plugins
+" -------
+
+call plug#begin()
+
+" Code folding
+Plug 'tmhedberg/SimpylFold'
+
+" Code suggestion/ completion
+Plug 'ervandew/supertab'
+
+" Syntax checking/ highlighting.
+" Insure that pylint is installed before installing this.
+" Otherwise pip install pylint
+Plug 'dense-analysis/ale'
+
+" CtrlP for search availability
+Plug 'ctrlpvim/ctrlp.vim'
+
+" Git functionality inside vim
+Plug 'tpope/vim-fugitive'
+
+" Airline & Themes
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Theme
+Plug 'joshdick/onedark.vim'
+
+" Syntax highlighting
+Plug 'sheerun/vim-polyglot'
+
+" Automatically closing parenthesis and quotes
+Plug 'Raimondi/delimitMate'
+
+" Python indentation
+Plug 'vim-scripts/indentpython.vim'
+
+call plug#end()
+
+"---------------------
+" Settings for Plugins
+"---------------------
+
+" SimpylFold - Docstrings for code folding
+let g:SimpylFold_docstring_preview=1
+
+" CtrlP - Search inside file with pressing Ctrl + P
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Setting vim-airline Theme
+" let g:airline_theme='base16-spacemacs'
+
+" Setting colorscheme to onedark
+colorscheme onedark

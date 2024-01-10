@@ -36,8 +36,9 @@ Learning vim and its various settings for better understanding.
 
 ## Final .vimrc File
 
-1. [.vimrc-v2](.vimrc-v2) - Better version
-2. [.vimrc-v1](.vimrc-v1) - Initial version
+1. [.vimrc-v3](.vimrc-v3) - Improved version with search highlighting.
+2. [.vimrc-v2](.vimrc-v2) - Better version
+3. [.vimrc-v1](.vimrc-v1) - Initial version
 
 > **Note**: Remove `-v1` or any other version before saving `.vimrc` file.
 
