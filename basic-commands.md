@@ -28,6 +28,6 @@ $ vimtutor -g
 |4.| [Lesson 04](vimtutor/lesson_04.md) | Cursor movement, search command and substitute command. |
 |5.| [Lesson 05](vimtutor/lesson_05.md) | Executing external commands, writing files and copying content from another file. |
 |6.| [Lesson 06](vimtutor/lesson_06.md) | The Open Command, Append Command, Replace Mode, Copy and Paste in Visual Mode and Set Option for searching. |
-|7.| [Lesson 07](vimtutor/lesson_07.md) | |
+|7.| [Lesson 07](vimtutor/lesson_07.md) | Getting Help, Startup Script and Completion. |
 
 ## The End
