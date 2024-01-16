@@ -88,8 +88,5 @@ let g:SimpylFold_docstring_preview=1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-" Setting vim-airline Theme
-" let g:airline_theme='base16-spacemacs'
-
 " Setting colorscheme to onedark
 colorscheme onedark
